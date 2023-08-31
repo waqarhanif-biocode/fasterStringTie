@@ -22,7 +22,7 @@ However, it's important to note that fasterStringTie is designed to cap resource
 
 pip install fasterstringtie
 
-usage: fasterStringTie.py [-h] [-i INPUT_DIR] [-o OUTPUT_DIR] [-r REFERENCE]
+usage: python -m fasterStringTie [-h] [-i INPUT_DIR] [-o OUTPUT_DIR] [-r REFERENCE]
                           accessions_file
 
 Faster Transcriptome Assembly of BAM files using StringTie.
@@ -39,7 +39,7 @@ optional arguments:
   -r REFERENCE, --reference REFERENCE
                         Path to the reference GTF file
 
-Example run: python fasterStringTie.py accessions.txt -i /media/waqar/hdd/easeRNAseq/E-MTAB-8412_colorectal_border/mapping/bam_sorted -o ~/Desktop/test-string -r /opt/Homo_sapiens.gtf
+Example run: python -m fasterStringTie accessions.txt -i /media/waqar/hdd/easeRNAseq/E-MTAB-8412_colorectal_border/mapping/bam_sorted -o ~/Desktop/test-string -r /opt/Homo_sapiens.gtf
 
 Contributions and Feedback
 
