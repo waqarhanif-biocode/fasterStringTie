@@ -20,7 +20,7 @@ However, it's important to note that fasterStringTie is designed to cap resource
 
 ### Installation and Usage
 
-pip install fasterstringtie
+pip install fasterStringTie
 
 usage: python -m fasterStringTie [-h] [-i INPUT_DIR] [-o OUTPUT_DIR] [-r REFERENCE]
                           accessions_file
