@@ -1,5 +1,7 @@
 # fasterStringTie
 
+Presenting fasterStringTie that is significantly (3 times) faster than the original StringTie.
+
 ### Overview
 
 The original StringTie tool, developed by Pertea M, Pertea GM, Antonescu CM, Chang TC, Mendell JT & Salzberg SL, revolutionized transcriptome reconstruction from RNA-seq data with its remarkable speed and accuracy (Nature Biotechnology 2015, doi:10.1038/nbt.3122). However, one glaring issue with StringTie is its underutilization of computational resources, specifically threads, cores, and processors, even when provided as parameters.
